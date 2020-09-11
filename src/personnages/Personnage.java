@@ -1,6 +1,7 @@
 package personnages;
 
 import java.util.List;
+import java.util.Map;
 
 import personnages.stats.Arme;
 import personnages.stats.Attribut;
@@ -10,7 +11,7 @@ import personnages.stats.Familier;
 public class Personnage
 {
 	private String nom;
-	private List<Attribut> attributs;
+	private Map<Attribut, Integer> attributs;
 	private List<Competence> competences;
 	private List<Arme> armes;
 	private List<Familier> familiers;
