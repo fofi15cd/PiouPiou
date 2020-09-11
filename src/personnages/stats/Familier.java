@@ -1,4 +1,4 @@
-package personnages;
+package personnages.stats;
 
 public class Familier
 {
